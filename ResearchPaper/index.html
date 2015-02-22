@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shutterfly Tech Stack</title>
+<link rel="stylesheet" type="text/css" href="shutterfly.css" />
+</head>
+
+<body>
+	<img src="logo.png" width ="461" height="105"/>
+	<h1>Technology at the Forefront: Shutterfly</h1>
+	<h2><i>“Our vision is to make the world a better place by helping people share life’s joy, and technology is the vehicle that makes our vision a reality.” – Jeffrey Housenbold President & CEO Shutterfly</i></h2>
+	<p>Shutterfly is a company that allows consumers to create custom photo books and store digital prints online.  Since their start in 1999 Shutterfly has made many changes to their technology stack in order to accommodate the high volume of photo storage and need for user security.</p>
+	<h3>Web and Database Servers</h3>
+	<p>Originally Shutterfly used Oracle database servers, and considered open source serves like MySQL, before switching to MongoDB for their photo platform. MongoDB utilizes a JSON-based data structure that gives Shutterfly an agile approach. This helps the Shutterfly team develop and deploy new Web 2.0 applications much more quickly and at a lower cost compared to their legacy system. Application development can now be broken down into sprints due to the 9x performance improvement with MongoDB but the traditional RDBMS is still in place for parts of the application that may require stronger consistency. </p>
+	<p>Shutterfly also uses Dell PowerEdge R720xd web servers to manage internal storage from Shutterfly’s acquired companies and to make sure their website is available at all times for customers. Shutterfly’s Vice President and CIO Geoffrey Weber said that they chose Dell servers based on their “performance, reliability, and cost effectiveness [which] allows Shutterfly to build and deploy state-of-the-art solutions for [their] B2C and B2B businesses”. In the end this change helped Shutterfly save money by enabling bulk order discounting with help from the Dell data center. </p>
+	<h3>Open Source Software/Hardware</h3>
+  <p>Shutterfly is a client of Open Source Storage who provides storage solutions like open media and clusters in addition to a variety of cloud services with a promise of performance optimization. The company was re-launched in 2009 to provide services at a minimized cost and claim that they can reduce typical costs associated with data ownership through open source software and hardware by 30 to 40 percent. </p>
+  <h3>Special Software</h3>
+	<p>Shutterfly Studio is a computer application that allows users to organize and edit their digital photos. It features file importing, tracking, tags and collections for sorting photos in addition to editing and sharing features like slide shows and remote printing. All keywords and captions of images are saved to private databases where the data can be exported into an excel file.</p>
+	<p>They also offer a Photo Story application that is available on the Apple App Store that helps users create and share quick digital photo books. In addition, these online photo books can include sound for a more personal touch. Consumers are able to print their books through Shutterfly for a cost starting at $19.99. </p>
+  <h3>Deployment Strategies and Security </h3>
+  <p>Shutterfly has over 80PB of pictures that they promised customers would be safe and properly stored. In order to achieve this, Shutterfly partnered with Cleversafe for image storage, archival, and data confidentiality. Traditional RAID-based storage systems were not reliable enough for the large amount of data Shutterfly has acquired from millions of customers. Cleversafe uses an object-based storage and data dispersion process. The data is parsed into multiple segments that are then expanded upon with additional information in order to create a more secure superset. Their algorithm then uses the superset to create the original data. What is unique about this system is that Cleversafe uses information dispersal to accurately replicate multiple segments as opposed to RAID technologies that can only lose one or two data segments. This partnership makes Shutterfly a more reliable company for their customers. </p>
+	<p>Shutterfly’s technology stack allows the company to have an unlimited amount of storage space for photo sharing. Taking care of this large amount of data is not easy but Shutterfly has proven to be successful in handling this responsibility for their customers. </p>
+
+      <h4>References</h4>
+
+			<p><a href="http://www.mongodb.com/customers/shutterfly">http://www.mongodb.com/customers/shutterfly</a></p>
+			<p><a href="https://gigaom.com/2011/01/28/real-world-nosql-mongodb-at-shutterfly/">https://gigaom.com/2011/01/28/real-world-nosql-mongodb-at-shutterfly/</a></p>
+			<p><a href="http://en.wikipedia.org/wiki/Shutterfly_Studio">http://en.wikipedia.org/wiki/Shutterfly_Studio</a></p>
+			<p><a href="http://talkincloud.com/cloud-storage/open-source-storage-relaunches-under-founders-guidance">http://talkincloud.com/cloud-storage/open-source-storage-relaunches-under-founders-guidance</a></p>
+			<p><a href="http://www.shutterfly.com/photo-book-ipad-app/?esch=1">http://www.shutterfly.com/photo-book-ipad-app/?esch=1</a></p>
+			<p><a href="http://www.cleversafe.com/news-reviews/cleversafe-press-releases/2011-cleversafe-press-releases/cleversafe-and-shutterfly-working-together-to-solve-evolving-storage-challenges">http://www.cleversafe.com/news-reviews/cleversafe-press-releases/2011-cleversafe-press-releases/cleversafe-and-shutterfly-working-together-to-solve-evolving-storage-challenges</a></p>
+			<p><a href="http://www.storage-switzerland.com/blog/entries/2013/7/1_How_Does_Shutterfly_Keep_80PB_of_Pictures_Safe_and_Available.html">http://www.storage-switzerland.com/blog/entries/2013/7/1_How_Does_Shutterfly_Keep_80PB_of_Pictures_Safe_and_Available.html</a></p>
+			<p><a href="http://en.community.dell.com/dell-blogs/direct2dell/b/direct2dell/archive/2013/10/01/bringing-technology-into-focus-for-shutterfly">http://en.community.dell.com/dell-blogs/direct2dell/b/direct2dell/archive/2013/10/01/bringing-technology-into-focus-for-shutterfly</a></p>
+
+
+
+
+</body>
+
+</html>
